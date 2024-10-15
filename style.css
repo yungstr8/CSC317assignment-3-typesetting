@@ -1,1 +1,125 @@
+/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* Fonts */
+body {
+  font-family: 'Georgia', serif;
+}
+
+h1, h2 {
+  font-family: 'Sans-serif', sans-serif;
+  color: #6A0DAD; /* Purple */
+  letter-spacing: 1px;
+}
+
+/* Text styling */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* Links styling */
+a {
+  color: #DAA520; /* Gold */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #DAA520; /* Gold */
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #6A0DAD; /* Purple */
+}
+
+/* Section and indentation */
+section {
+  text-indent: 1.25rem;
+}
+
+/* Header and Footer */
+header, footer {
+  border-top: 5px solid #6A0DAD; /* Purple border */
+  border-bottom: 5px solid #6A0DAD; /* Purple border */
+}
+
+/* Navigation menu */
+nav ul li a {
+  display: block;
+  padding: 10px;
+  background-color: #F1E9FF; /* Light purple background for nav items */
+  color: #6A0DAD; /* Purple */
+  text-align: center;
+  margin: 5px 0;
+  border: 1px solid #6A0DAD; /* Purple border */
+}
+
+nav ul li a:hover {
+  background-color: #DAA520; /* Gold on hover */
+  color: white;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+/* Highlight for emphasized text */
+strong, em {
+  color: #DAA520; /* Gold for emphasis */
+}
+
+/* Additional styling for readability */
+section, aside, nav, footer {
+  margin-bottom: 20px;
+}
 
